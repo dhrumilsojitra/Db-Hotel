@@ -1,0 +1,268 @@
+/* Jenral */
+.link-shadow{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.all-redius{
+    border-radius: 10px!important;
+}
+
+/* navbar */
+.navbar-btn{
+    background-color: rgb(170, 141, 92) !important; 
+    border-radius: 10px !important; 
+    color: white !important;
+}
+.custom-nav{
+    background-color: rgb(29, 69, 103);
+}
+.nav-link{
+    color: white !important;
+}
+.active{
+    color:rgb(170, 141, 92) !important;
+}
+/* main banner */
+#main-banner{
+    background-image: url(./images/carousel-1\ 1.png);
+    height: 774px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-blend-mode: hue;
+    position: relative;
+}
+.main-banner-btn{
+    background-color: white !important; 
+    border-radius: 10px !important; 
+    color: black !important;
+}
+.s-title{
+    position: relative;
+}
+.s-title::before,
+.s-title::after{
+    content: " ";
+    border: 3px solid rgb(170, 141, 92);
+    display: flex;
+    width: 23%;
+    position: absolute;
+    top: 50%;
+}
+.s-title::after{
+    right: 0px;
+}
+
+.rec-box{
+
+    /* width: 80%;  */
+    height: 140px;
+    position: absolute;
+    top: 90%;
+    margin:auto;
+    background-color: white;
+    box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding:0px 25px ;
+}
+/* explore room  */
+.explore-room-card{
+    width: 424px; 
+    height: 525px;
+}
+/* about us  */
+#about-us{
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 647px;
+}
+.orange-heading-color{
+    color:rgb(170, 141, 92) !important;
+}
+.element-title{
+    position: relative;
+}
+.element-title::after{
+    content: " ";
+    border: 2px solid rgb(170, 141, 92);
+    display: flex;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.box{
+    height: 180px;
+    width: 180px;
+    box-sizing: border-box;
+}
+.custom-png{
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    
+}
+#room-section{
+    /* border: 2px solid black; */
+    height: 706px;
+}
+
+/* Our services  */
+#our-services{
+    height: 895px;
+}
+.our-services-card{
+    width: 424px; 
+    height: 350px;
+}
+.section-title{
+    position: relative;
+    /* display: block; */
+}
+.room-section-button{
+    background-color: rgb(170, 141, 92) !important; 
+    border-radius: 10px !important; 
+    color: white !important; 
+    top: 40%;
+    transform: translateY(-60%);
+
+}
+.section-title::before,
+.section-title::after {
+    content: " ";
+    border: 2px solid rgb(170, 141, 92);
+    display: flex;
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.section-title::before {
+    left: 38%;
+}
+
+.section-title::after {
+    right: 38%;
+}
+.img-transiction{
+    transition: transform 0.6s ease-in-out;
+    transform-origin: top left;
+}
+.img-transiction:hover{
+    transform: scale(1.1);
+    /* transition: 0.5s; */
+
+}
+.box-sh{
+    box-shadow:  0px 4px 30px 5px rgba(0, 0, 0, 0.25) !important;
+    overflow: hidden;
+    
+}
+.sub-banner{
+    height: 500px;
+    background: rgba(29, 69, 103, 1);
+    /* border: 2px solid black; */
+}
+.custom-img{
+    height: 500px;
+    width: 100%;
+   
+
+}
+.luxury-line::after{
+    content: "";
+    border: 2px solid rgb(170, 141, 92);
+    display: flex;
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.box-2{
+    height: 100px;
+    width: 100px;
+}
+.box-sh-2{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+/* testimonial */
+#testimonial{
+    background-image: url(./images/Rectangle\ 80.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.397);
+    background-blend-mode: hue;
+    height: 400px;
+}
+.testimonial-card{
+    width: 631px; 
+    height: 200px;
+}
+.icon-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(170, 141, 92);
+    color: white;
+}
+.icon-div{
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+   
+}
+
+.heding-line-footer::after{
+    content: "";
+    border: 2px solid rgb(170, 141, 92);
+    display: flex;
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+/* Our team  */
+#our-team{
+    height:669px;
+}
+.our-team-card{
+    width: 424px; 
+    height:500px; 
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* footer */
+#footer{
+    height: 667px;
+}
+.footer-main-section{
+    height:510px; 
+    background: rgba(29, 69, 103, 1);
+}
+.news-letter-box{
+    border-radius: 10px;
+    bottom: 34%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.news-letter-inputbox{
+    width: 355px !important; 
+    border-radius: 10px !important;
+}
+.news-letter-main-box{
+    width:980px; 
+    height:290px; 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} 

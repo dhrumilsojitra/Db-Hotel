@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DB-Hotel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/db hotel.png" type="image/x-icon">
+  <!-- Fonts link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navabar -->
+  <nav class="navbar custom-nav">
+    <div class="container-fluid d-flex justify-content-evenly align-items-center position-sticky">
+      <a class="navbar-brand" href="#"><img src="./images/db hotel.png" class="logo" alt=""></a>
+      <div class=" d-flex">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="#">Rooms</a>
+        <a class="nav-link" href="#">Bookings</a>
+        <a class="nav-link" href="#">Contacts</a>
+      </div>
+      <button class="btn navbar-btn">Premium
+        Version</button>
+    </div>
+  </nav>
+  <!-- main banner section -->
+  <section id="main-banner"
+    class="d-flex align-items-center justify-content-center align-content-center flex-column mb-5">
+    <div>
+      <p class="fs-3  fw-bold text-white text-center s-title">Luxury Living</p>
+      <h2 class="  fw-bold text-white  text-center lh-sm display-5">Discover A Brand
+        <br> Luxurious Hotel
+      </h2>
+      <div class="d-flex justify-content-center gap-4 mt-5 ">
+        <button class="btn px-4 navbar-btn">Our
+          Rooms</button>
+        <button class="btn px-4 main-banner-btn">Book a room</button>
+      </div>
+    </div>
+    <div class="rec-box container">
+      <input type="text" class="form-control" placeholder="Check In...">
+      <input type="text" class="form-control" placeholder="Check Out...">
+      <div class="input-group">
+        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+          <option selected>Adult</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+          <option selected>Child</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <button class="btn fw-semibold px-5 navbar-btn">Submit</button>
+    </div>
+  </section>
+  <!-- about us scection -->
+  <section id="about-us" class="container mb-5 mt-5 pt-5">
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <p class="fs-4 fw-bold element-title mt-5 mb-4 orange-heading-color" >About Us</p>
+        <p class="fs-2 fw-bold  mb-5 text-dark">Welcome to <span class="orange-heading-color">Db
+            Hotel</span></p>
+        <div class="d-flex justify-content-between  mb-5 gap-lg-4">
+          <div class="border border-3 rounded box p-2 ">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-hotel fs-1 m-0 p-0 orange-heading-color"></p>
+              <p class="fs-5 fw-bold m-0 p-0">1234</p>
+              <p class="fs-5 fw-bold m-0 p-0">Rooms</p>
+            </div>
+          </div>
+          <div class="border border-3 rounded box p-2 ">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-hotel fs-1 m-0 p-0 orange-heading-color"></p>
+              <p class="fs-5 fw-bold m-0 p-0">1234</p>
+              <p class="fs-5 fw-bold m-0 p-0">Rooms</p>
+            </div>
+          </div>
+          <div class="border border-3 rounded box p-2 ">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-hotel fs-1 m-0 p-0 orange-heading-color"></p>
+              <p class="fs-5 fw-bold m-0 p-0">1234</p>
+              <p class="fs-5 fw-bold m-0 p-0">Rooms</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn fw-semibold px-4 py-2 navbar-btn">Explore More</button>
+      </div>
+      <div class="col-md-6 m-0 p-0 ">
+        <div class="row position-relative mb-4">
+          <div class="col-md-6">
+            <img src="./images/about-1 1.jpg" alt="" class="img-fluid position-absolute bottom-0 end-50 "
+              style="z-index: 100;">
+          </div>
+          <div class="col-md-6  ">
+            <img src="./images/about-2 1.jpg" alt="" class="img-fluid ">
+          </div>
+          <div class="col-md-6">
+            <img src="./images/pngwing 3.png" alt="" class=" img-fluid custom-png">
+          </div>
+        </div>
+        <div class="row position-relative">
+          <div class="col-md-6">
+            <img src="./images/about-3 1.jpg" alt="" class="img-fluid position-absolute top-0 end-50">
+          </div>
+          <div class="col-md-6">
+            <img src="./images/about-4 1.jpg" alt="" class="img-fluid ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- explore room section -->
+  <section id="room-section" class="container mb-5">
+    <div class="mt-4">
+      <p class="fs-4 fw-bold text-center section-title orange-heading-color" >Our Rooms</p>
+      <p class="fs-2 fw-bold  mb-5 text-center text-dark">Explore Our <span
+         class="orange-heading-color">Rooms</span></p>
+    </div>
+    <div class="d-flex justify-content-center gap-4">
+      <div class="card box-sh explore-room-card" >
+        <img src="./images/Rectangle 24.jpg" class="card-img-top position-relative img-transiction" alt="...">
+        <a href="#" class="btn px-4 py-1 ms-3 position-absolute room-section-button">$100/Night</a>
+        <div class="card-body mt-2">
+          <div class="d-flex justify-content-between mb-3">
+            <h5 class="card-title fw-bold">Junior Suite</h5>
+            <span class="orange-heading-color"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="d-flex justify-content-around mb-4">
+            <span class="fs-5 "> <i class="fa-solid fa-bed orange-heading-color" ></i> 1 Bed </span><span
+              class="border-start border-start-3"></span>
+            <span class="fs-5 "> <i class="fa-solid fa-bath orange-heading-color" ></i> 1 Bath </span><span
+              class="border-start border-start-3"></span>
+            <span class="fs-5 "> <i class="fa-solid  fa-wifi orange-heading-color" ></i> Wi-Fi</span>
+          </div>
+          <p class="card-text mb-4">The Junior Suite is an elegant studio-style guest accommodation furnished with a
+            queen-sized bed, a writing desk.</p>
+          <div class="d-flex justify-content-between ">
+            <a href="#" class="btn px-5 py-2 navbar-btn">View Details</a>
+            <a href="#" class="btn btn-dark px-4 py-2 all-redius">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card box-sh explore-room-card" >
+        <img src="./images/Rectangle 26.jpg" class="card-img-top position-relative img-transiction" alt="...">
+        <a href="#" class="btn px-4 py-1 ms-3 position-absolute room-section-button">$150/Night</a>
+        <div class="card-body mt-2">
+          <div class="d-flex justify-content-between mb-3">
+            <h5 class="card-title fw-bold">Executive Suite</h5>
+            <span class="orange-heading-color"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="d-flex justify-content-around mb-4">
+            <span class="fs-5 "> <i class="fa-solid fa-bed orange-heading-color" ></i> 2 Bed </span><span
+              class="border-start border-start-3"></span>
+            <span class="fs-5 "> <i class="fa-solid fa-bath orange-heading-color" ></i> 2 Bath </span><span
+              class="border-start border-start-3"></span>
+            <span class="fs-5 "> <i class="fa-solid  fa-wifi orange-heading-color" ></i> Wi-Fi</span>
+          </div>
+          <p class="card-text mb-4">The Junior Suite is an elegant studio-style guest accommodation furnished with a
+            queen-sized bed, a writing desk.</p>
+          <div class="d-flex justify-content-between ">
+            <a href="#" class="btn px-5 py-2 navbar-btn">View Details</a>
+            <a href="#" class="btn btn-dark px-4 py-2 all-redius">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="card box-sh explore-room-card" >
+        <img src="./images/Rectangle 30.jpg" class="card-img-top position-relative img-transiction" alt="...">
+        <a href="#" class="btn px-4 py-1 ms-3 position-absolute room-section-button">$200/Night</a>
+        <div class="card-body mt-2">
+          <div class="d-flex justify-content-between mb-3">
+            <h5 class="card-title fw-bold">Super Deluxe</h5>
+            <span class="orange-heading-color"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+          </div>
+          <div class="d-flex justify-content-around mb-4">
+            <span class="fs-5 "> <i class="fa-solid fa-bed orange-heading-color"></i> 3 Bed </span><span
+              class="border-start border-start-3"></span>
+            <span class="fs-5 "> <i class="fa-solid fa-bath orange-heading-color"></i> 2 Bath </span><span
+              class="border-start border-start-3"></span>
+            <span class="fs-5 "> <i class="fa-solid  fa-wifi orange-heading-color"></i> Wi-Fi</span>
+          </div>
+          <p class="card-text mb-4">The Junior Suite is an elegant studio-style guest accommodation furnished with a
+            queen-sized bed, a writing desk.</p>
+          <div class="d-flex justify-content-between ">
+            <a href="#" class="btn px-5 py-2 navbar-btn">View Details</a>
+            <a href="#" class="btn btn-dark px-4 py-2 all-redius">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- sub banner section -->
+  <section class="container-fluid sub-banner" >
+    <div class="row">
+      <div class="col-md-6 p-0 container position-relative">
+        <div class=" mt-5 position-absolute" style="left: 25%;">
+          <p class="fs-4 mt-5 mb-4 text-white position-relative luxury-line">Luxury Living</p>
+          <p class="fs-2 fw-bold mb-4 text-white">Discover A Brand Luxurious Hotel</p>
+          <p class="fs-6 text-white mb-4">The most common type of accommodation in the hotel industry, a hotel is
+            defined as an establishment that offers overnight accommodation, meals and other services.</p>
+          <div class="d-flex gap-5">
+            <a href="#" class="btn px-5 py-2 navbar-btn link-shadow">Our
+              Rooms</a>
+            <a href="#" class="btn btn-light px-5 py-2 all-redius">Book a Room</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 p-0 position-relative">
+        <img src="./images/Rectangle 107.jpg" alt="" class=" custom-img">
+        <img src="./images/Vector.png" alt="" class="position-absolute top-50 end-50">
+      </div>
+    </div>
+  </section>
+  <!-- our servics section -->
+  <div class="container-fluid position-relative">
+    <img src="./images/pngwing 1.png" alt="" class="position-absolute img-fluid">
+    <img src="./images/pngwing 2.png" alt="" class="position-absolute end-0">
+  </div>
+  <section class="container mt-5" id="our-services">
+    <p class="fs-4 fw-bold text-center section-title orange-heading-color" >Our Services</p>
+    <p class="fs-2 fw-bold  mb-5 text-center text-dark">Explore Our <span class="orange-heading-color">Services</span></p>
+    <div class="d-flex justify-content-center gap-4 mb-4">
+      <div class="card box-sh-2 our-services-card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center p-5 gap-2">
+          <div class="border border-3 rounded box-2 p-1">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-hotel fs-1 m-0 p-0 orange-heading-color" ></p>
+            </div>
+          </div>
+          <h5 class="card-title">Rooms & Apartments</h5>
+          <p>The apartment consists of a large bright bedroom with a comfy king-sized bed, a modern fully-equipped
+            kitchen and a sunlit living room with Apple TV and free Netflix account.</p>
+        </div>
+      </div>
+      <div class="card box-sh-2 our-services-card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center p-5 gap-2">
+          <div class="border border-3 rounded box-2 p-1">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-utensils fs-1 m-0 p-0 orange-heading-color"></p>
+            </div>
+          </div>
+          <h5 class="card-title">Food & Restaurant</h5>
+          <p>As a boarding house, the Ebbitt guest list read like a Who's Who of American History. President McKinley is
+            said to have lived there during his tenure in Congress, and Presidents Ulysses S. Grant.
+          </p>
+        </div>
+      </div>
+      <div class="card box-sh-2 our-services-card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center p-5 gap-2">
+          <div class="border border-3 rounded box-2 p-1">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-spa fs-1 m-0 p-0 orange-heading-color" ></p>
+            </div>
+          </div>
+          <h5 class="card-title">Spa & Fitness</h5>
+          <p>A hotel, the spa and wellness facilities are where people go to exercise and have special treatments in
+            order to improve their health. The spa and wellness facilities include a sauna and treatment rooms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center gap-4 ">
+      <div class="card box-sh-2 our-services-card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center p-5 gap-2">
+          <div class="border border-3 rounded box-2 p-1">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid  fa-baseball-bat-ball fs-1 m-0 p-0 orange-heading-color" ></p>
+            </div>
+          </div>
+          <h5 class="card-title">Sports & Gaming</h5>
+          <p>Games and sports are very similar: a game is a physical or mental activity or contest that has rules and
+            that people do for pleasure. A sport is a contest or game in which people do certain physical activities.
+          </p>
+        </div>
+      </div>
+      <div class="card box-sh-2 our-services-card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center p-5 gap-2">
+          <div class="border border-3 rounded box-2 p-1">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-champagne-glasses fs-1 m-0 p-0 orange-heading-color" ></p>
+            </div>
+          </div>
+          <h5 class="card-title">Event & Party</h5>
+          <p>Once you have chosen your favourite birthday invitations, the next step is to personalise them for your
+            special event. All of the text on our birthday invitations can be fully personalised.
+          </p>
+        </div>
+      </div>
+      <div class="card box-sh-2 our-services-card" >
+        <div class="card-body d-flex flex-column justify-content-center align-items-center p-5 gap-2">
+          <div class="border border-3 rounded box-2 p-1">
+            <div class="border border-3 d-flex flex-column h-100 justify-content-center align-items-center">
+              <p class="fa-solid fa-dumbbell fs-1 m-0 p-0 orange-heading-color" ></p>
+            </div>
+          </div>
+          <h5 class="card-title">Gym & Yoga</h5>
+          <p>Gym training is remarkable for losing weight quickly. Yoga commonly does not work on muscle development.
+            Hence, there is a certain type of yoga exercises which includes tough practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial section -->
+  <section class="container-fluid my-5" id="testimonial">
+    <div class="container ">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex align-items-center" style="height: 400px;">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center align-items-center gap-5">
+              <div class="card py-2 testimonial-card">
+                <div class="card-body">
+                  <p class="card-text text-dark mb-2">Thank you for dinner last night. It was amazing!! I have to say
+                    it’s the best meal I have had in quite some time. You will definitely be seeing more of me eating at
+                    your establishment.</p>
+                  <div class="d-flex justify-content-start align-items-center gap-3">
+                    <img src="./images/Rectangle 117.jpg" alt="" class="img-thumbnail border-0">
+                    <div class="mt-3">
+                      <p class="fs-5 fw-bold text-dark mb-0">Amber Lane</p>
+                      <p class="fs-6 text-dark">Profession</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card py-2 testimonial-card" >
+                <div class="card-body">
+                  <p class="card-text text-dark mb-2">WOW!!! What an outstanding dinner you prepared at the Johnstons on
+                    Friday evening!!! It was an honor for me to be incredible culinary gift! MERCI BEAUCOUP seems
+                    soooooooo inadequate!</p>
+                  <div class="d-flex justify-content-start align-items-center gap-3">
+                    <img src="./images/Rectangle 121.jpg" alt="" class="img-thumbnail border-0">
+                    <div class="mt-3">
+                      <p class="fs-5 fw-bold text-dark mb-0">Amber Lane</p>
+                      <p class="fs-6 text-dark">Profession</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center gap-5">
+              <div class="card py-2 testimonial-card">
+                <div class="card-body">
+                  <p class="card-text text-dark mb-2">Thank you for dinner last night. It was amazing!! I have to say
+                    it’s the best meal I have had in quite some time. You will definitely be seeing more of me eating at
+                    your establishment.</p>
+                  <div class="d-flex justify-content-start align-items-center gap-3">
+                    <img src="./images/Rectangle 117.jpg" alt="" class="img-thumbnail border-0">
+                    <div class="mt-3">
+                      <p class="fs-5 fw-bold text-dark mb-0">Amber Lane</p>
+                      <p class="fs-6 text-dark">Profession</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card py-2 testimonial-card">
+                <div class="card-body">
+                  <p class="card-text text-dark mb-2">WOW!!! What an outstanding dinner you prepared at the Johnstons on
+                    Friday evening!!! It was an honor for me to be incredible culinary gift! MERCI BEAUCOUP seems
+                    soooooooo inadequate!</p>
+                  <div class="d-flex justify-content-start align-items-center gap-3">
+                    <img src="./images/Rectangle 121.jpg" alt="" class="img-thumbnail border-0">
+                    <div class="mt-3">
+                      <p class="fs-5 fw-bold text-dark mb-0">Amber Lane</p>
+                      <p class="fs-6 text-dark">Profession</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center gap-5">
+              <div class="card py-2 testimonial-card">
+                <div class="card-body">
+                  <p class="card-text text-dark mb-2">Thank you for dinner last night. It was amazing!! I have to say
+                    it’s the best meal I have had in quite some time. You will definitely be seeing more of me eating at
+                    your establishment.</p>
+                  <div class="d-flex justify-content-start align-items-center gap-3">
+                    <img src="./images/Rectangle 117.jpg" alt="" class="img-thumbnail border-0">
+                    <div class="mt-3">
+                      <p class="fs-5 fw-bold text-dark mb-0">Amber Lane</p>
+                      <p class="fs-6 text-dark">Profession</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card py-2 testimonial-card">
+                <div class="card-body">
+                  <p class="card-text text-dark mb-2">WOW!!! What an outstanding dinner you prepared at the Johnstons on
+                    Friday evening!!! It was an honor for me to be incredible culinary gift! MERCI BEAUCOUP seems
+                    soooooooo inadequate!</p>
+                  <div class="d-flex justify-content-start align-items-center gap-3">
+                    <img src="./images/Rectangle 121.jpg" alt="" class="img-thumbnail border-0">
+                    <div class="mt-3">
+                      <p class="fs-5 fw-bold text-dark mb-0">Amber Lane</p>
+                      <p class="fs-6 text-dark">Profession</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Team section -->
+  <section class="container my-5 p-0" id="our-team">
+    <p class="fs-4 fw-bold text-center section-title mt-3 orange-heading-color">Our Team</p>
+    <p class="fs-2 fw-bold  mb-5 text-center text-dark">Explore Our <span class="orange-heading-color">Staffs</span></p>
+    <div class="d-flex justify-content-center align-items-center gap-3">
+      <div class="card position-relative our-team-card">
+        <img src="./images/Rectangle 88.jpg" class="card-img-top " alt="...">
+        <div class="mx-auto position-absolute icon-div">
+          <span class="icon-box px-3 py-2"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="icon-box px-3 py-2 mx-2"><i class="fa-brands fa-twitter"></i></span>
+          <span class="icon-box px-3 py-2"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        <div class="card-body text-center mt-5">
+          <h3 class="card-title fw-bold">Lance Jarvis</h3>
+          <p class="card-text">Designation</p>
+        </div>
+      </div>
+      <div class="card our-team-card">
+        <img src="./images/Rectangle 91.png" class="card-img-top" alt="...">
+        <div class="position-absolute icon-div">
+          <span class="icon-box px-3 py-2"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="icon-box px-3 py-2 mx-2"><i class="fa-brands fa-twitter"></i></span>
+          <span class="icon-box px-3 py-2"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        <div class="card-body text-center mt-5">
+          <h3 class="card-title fw-bold">Brian Dean</h3>
+          <p class="card-text">Designation</p>
+        </div>
+      </div>
+      <div class="card our-team-card">
+        <img src="./images/Rectangle 90.jpg" class="card-img-top" alt="...">
+        <div class="mx-auto position-absolute icon-div">
+          <span class="icon-box px-3 py-2"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="icon-box px-3 py-2 mx-2"><i class="fa-brands fa-twitter"></i></span>
+          <span class="icon-box px-3 py-2"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        <div class="card-body text-center mt-5">
+          <h3 class="card-title fw-bold">Neil Wilford</h3>
+          <p class="card-text">Designation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer  -->
+  <footer class="container-fluid my-5 p-0 d-flex flex-column justify-content-end" id="footer" >
+    <div class="position-relative d-flex flex-column justify-content-end footer-main-section">
+      <div class="position-absolute border border-1 p-2 rounded-5 news-letter-box">
+        <div class="border border-1 p-2 rounded-5 all-redius">
+          <div class="border border-1 news-letter-main-box">
+            <p class="fs-3 fw-bold  mt-5 mb-4 text-center text-dark">Subscribe Our <span class="orange-heading-color">Newslatter</span></p>
+            <div class="input-group mx-auto border border-1 p-3 news-letter-inputbox">
+              <input type="text" class="form-control border-0" placeholder="Enter Your Email"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <a href="#" class="btn px-4 navbar-btn link-shadow">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" d-flex justify-content-center gap-5 mb-5">
+        <div>
+          <p class="fs-5 fw-bold mb-4 heding-line-footer position-relative orange-heading-color">Contact Us
+          </p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-location-dot"></i> 123 Street,New York,USA</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-phone"></i> +012 345 67890</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-envelope"></i> abc@ gmail.com </p>
+          <div class="fs-6 text-light d-flex gap-2">
+            <i class="fa-brands fa-twitter border border-1 rounded-circle p-2"></i>
+            <i class="fa-brands fa-facebook border border-1 rounded-circle p-2"></i>
+            <i class="fa-brands fa-youtube border border-1 rounded-circle p-2"></i>
+            <i class="fa-brands fa-linkedin-in border border-1 rounded-circle p-2"></i>
+          </div>
+        </div>
+        <div>
+          <p class="fs-5 fw-bold mb-4 heding-line-footer position-relative orange-heading-color">Company</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> About us</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Contact us</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Privacy Policy</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Terms & Condition</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Support</p>
+        </div>
+        <div>
+          <p class="fs-5 fw-bold mb-4 heding-line-footer position-relative orange-heading-color" >Services</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> food & restaurant</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Spa & Fitness</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Sports & Gaming</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Eevent & Party</p>
+          <p class="fs-6 text-light"><i class="fa-solid fa-chevron-right"></i> Gym & Yoga</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center gap-3">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
